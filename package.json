@@ -1,0 +1,10 @@
+{
+  "name": "our-rplace",
+  "version": "1.0.0",
+  "description": "Backend server for infinite r/place",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ws": "^8.5.0"
+  }
+}
