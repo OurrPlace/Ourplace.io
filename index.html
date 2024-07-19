@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>r/place Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="color-picker">
+        <button class="color" style="background-color: #FFFFFF" onclick="setColor('#FFFFFF')"></button>
+        <button class="color" style="background-color: #FF0000" onclick="setColor('#FF0000')"></button>
+        <button class="color" style="background-color: #00FF00" onclick="setColor('#00FF00')"></button>
+        <button class="color" style="background-color: #0000FF" onclick="setColor('#0000FF')"></button>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script src="client.js"></script>
+</body>
+</html>
