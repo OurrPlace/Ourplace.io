@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#color-picker {
+    margin-bottom: 10px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+#canvas {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
